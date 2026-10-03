@@ -47,6 +47,18 @@
             box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);
         }
 
+        /* Headshot Styling */
+        .profile-img {
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            object-fit: cover;
+            margin-bottom: 1.25rem;
+            border: 3px solid var(--primary);
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.08);
+            object-position: center 20%; /* Focuses nicely on your face */
+        }
+
         h1 {
             font-size: 2.25rem;
             font-weight: 700;
@@ -187,6 +199,7 @@
     <div class="container">
         <!-- Header & Personal Statement -->
         <header>
+            <img src="IMG_8825.jpg" alt="Zain Khalil Headshot" class="profile-img">
             <h1>Zain Khalil</h1>
             <p class="personal-statement">I am a Rutgers Business School finance student with a strong interest in investment banking, real estate, and asset management, driven by analytical problem-solving and a passion for helping businesses make informed financial decisions.</p>
         </header>
@@ -265,10 +278,9 @@
                 <div class="project-card">
                     <div>
                         <h3 class="project-title">Bank of America Private Bank Job Simulation</h3>
-                        <p class="project-desc">Completed practical tasks in September 2026 covering client account servicing, uncovering client goals and priorities, and matching financial strategies[cite: 1].</p>
+                        <p class="project-desc">Completed practical tasks covering client account servicing, uncovering client goals and priorities, and matching financial strategies[cite: 1].</p>
                     </div>
                     <div class="project-links">
-                        <!-- Note: If you have a link to your certificate PDF hosted online, you can paste it here, or reference it locally -->
                         <span style="font-size: 0.85rem; color: var(--text-muted); align-self: center;">Verified Certificate Completed (Sep 2026)[cite: 1]</span>
                     </div>
                 </div>
